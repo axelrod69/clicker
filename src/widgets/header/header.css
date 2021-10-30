@@ -1,0 +1,14 @@
+.caption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 80px;
+    background-color: rgb(56, 55, 55);
+}
+
+.caption > div {
+    color: white;
+    font-size: 35px;
+    margin-right: 5px;
+}

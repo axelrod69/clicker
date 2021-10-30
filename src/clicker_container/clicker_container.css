@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    border: 2px solid gray;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.initCounter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    height: 200px;
+    font-weight: bold;
+}
